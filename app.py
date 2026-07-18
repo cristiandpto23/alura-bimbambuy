@@ -1,6 +1,8 @@
 from src.document_loader import load_documents
 from src.text_splitter import split_documents
 from src.vector_store import create_vector_store
+from src.retriever import create_retriever
+
 
 
 documents = load_documents("data/pdfs")
@@ -16,9 +18,10 @@ print()
 
 print("Base vectorial creada correctamente.")
 
-results = vector_store.similarity_search(
-    "¿Cómo funciona la garantía?",
-    k=3
+retriever = create_retriever(vector_store)
+
+results = retriever.invoke(
+    "¿Cómo funciona la garantía?"
 )
 
 for i, result in enumerate(results, start=1):
