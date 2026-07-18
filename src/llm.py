@@ -39,4 +39,11 @@ Pregunta:
 
     response = llm.invoke(prompt)
 
+    if isinstance(response.content, list):
+        return "".join(
+            block["text"]
+            for block in response.content
+            if isinstance(block, dict) and "text" in block
+        )
+
     return response.content
