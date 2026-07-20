@@ -19,6 +19,14 @@ El proyecto fue desarrollado como parte del **Challenge ONE Oracle + Alura**, ut
 
 ![alt text](image-1.png)
 
+## Deploy (en OCI)
+
+![alt text](image.png)
+
+[http://159.112.140.213:8501/](http://159.112.140.213:8501/)
+
+    > ⚠️ Nota: Esta aplicación fue desplegada en Oracle Cloud Infrastructure (OCI) como parte del Challenge de Alura. Debido a que utiliza una instancia temporal, el enlace público podría no estar disponible de forma permanente una vez finalizada la evaluación.
+
 # 🚀 Características
 
 - Lectura automática de documentos PDF.
