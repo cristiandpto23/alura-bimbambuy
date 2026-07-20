@@ -4,7 +4,20 @@ Asistente inteligente basado en **Retrieval-Augmented Generation (RAG)** capaz d
 
 El proyecto fue desarrollado como parte del **Challenge ONE Oracle + Alura**, utilizando Python, LangChain, FAISS, Google Gemini y Streamlit.
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green)
+
+![Gemini](https://img.shields.io/badge/Google-Gemini-orange)
+
+![FAISS](https://img.shields.io/badge/FAISS-Vector%20Database-red)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-ff4b4b)
+
 ---
+## Screenshot
+
+![alt text](image-1.png)
 
 # 🚀 Características
 
